@@ -1,0 +1,30 @@
+Kyano Digital Meeloop opdracht
+PHP Developer
+
+NL Vertaling
+
+Opdracht:
+Stel je voor dat je een applicatie moet ontwikkelen voor het vinden van de kortste looproute tussen verschillende punten in een magazijn. Elk punt in het magazijn heeft een unieke locatie en er zijn looproutes tussen verschillende punten.
+
+In deze opdracht ga je het Dijkstra's algoritme implementeren in PHP om de kortste looproute tussen twee punten in een magazijn te vinden. Je krijgt de informatie over de punten en de looproutes als input in de vorm van arrays.
+
+Implementeer de dijkstra-functie om het Dijkstra's algoritme uit te voeren. Deze functie moet de gegeven graaf van punten en looproutes, het startpunt en het eindpunt als parameters accepteren en de kortste looproute tussen deze punten retourneren als een array van punten.
+Roep de dijkstra-functie aan met behulp van de gegeven punten en looproutes, het startpunt en het eindpunt. Sla het geretourneerde resultaat op in een variabele.
+Schrijf code om de kortste looproute als een reeks puntnamen af te drukken. Bijvoorbeeld: "De kortste looproute van A naar Z is A -> B -> C -> D -> Z."
+Test je implementatie door verschillende start- en eindpunten te gebruiken en te controleren of de juiste kortste looproutes worden gevonden.
+Maak je implementatie in een class genaamt UTIL_Warehouse
+
+Succes!
+
+Engelse vertaling
+
+Assignment:
+Imagine you have to develop an application for finding the shortest walking route between different points in a warehouse. Each point in the warehouse has a unique location, and there are walking routes between different points.
+
+In this assignment, you will implement Dijkstra's algorithm in PHP to find the shortest walking route between two points in a warehouse. You will be given information about the points and the walking routes as input in the form of arrays.
+
+Implement the Dijkstra function to execute Dijkstra's algorithm. This function should accept the given graph of points and walking routes, the starting point, and the ending point as parameters, and return the shortest walking route between these points as an array of points.
+Invoke the Dijkstra function using the given points and walking routes, the starting point, and the ending point. Save the returned result in a variable.
+Write code to print the shortest walking route as a sequence of point names. For example: "The shortest walking route from A to E is A -> C -> F -> E ."
+Test your implementation by using different starting and ending points and checking if the correct shortest walking routes are found.
+Implement your solution in a class named UTIL_Warehouse.
